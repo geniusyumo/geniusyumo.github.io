@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>可展開內容的標題</title>
+<link rel="stylesheet" href="style.css">
+<!-- 引入 Bootstrap Icons 的 CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+<style>
+  /* 初始時隱藏內文 */
+  .content {
+    display: none;
+  }
+  /* 样式箭头的颜色 */
+  
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+  // JavaScript 函數，用於切換內文的顯示狀態
+  function toggleContent(targetId, arrowId) {
+    var content = document.getElementById(targetId);
+    var arrowIcon = document.getElementById(arrowId);
+    if (content.style.display === "none") {
+      content.style.display = "block";
+      // 切換箭頭方向
+      arrowIcon.classList.remove("bi-chevron-down");
+      arrowIcon.classList.add("bi-chevron-up");
+    } else {
+      content.style.display = "none";
+      // 切換箭頭方向
+      arrowIcon.classList.remove("bi-chevron-up");
+      arrowIcon.classList.add("bi-chevron-down");
+    }
+  }
+</script>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-extend-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="navbar-logo" src="SAUDSA.jpg" alt="立群膠業行">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navDropdown">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Incense薰香 ប្រេងសំខាន់ៗទឹកអប់</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#">Arabic Perfume Oil</a></li>
+                            <li><a class="dropdown-item" href="#">Agarwood</a></li>
+                            <li><a class="dropdown-item" href="#">Agarwood Oil</a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Herbs 藥材 المواد الطبية</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#">Agarwood tea</a></li>
+                            <li><a class="dropdown-item" href="#">Bird's nest</a></li>
+                            <li><a class="dropdown-item" href="#">Cordyceps sinensis</a></li>
+                            <li><a class="dropdown-item" href="#">Sichuan clam</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Taiwan tea 茶 شاي</a>
+                        <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+                            <li><a class="dropdown-item" href="#">High mountain tea - Taiwan Green</a></li>
+                            <li><a class="dropdown-item" href="#">Hung Yu - Taiwan black</a></li>
+                            
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+    
+    
+    
+  </header>
+  <!-- 點擊標題時觸發 toggleContent 函數 -->
+  <main>
+    <h1>For Middle East</h1>
+    <hr>
+    <p>......這是一串內文</p>
+    <hr>
+    <h1>For East Asia</h1>
+    <hr>
+    <p>......這是一串內文</p>
+    <hr>
+    <img src="未命名.png" alt="11" class="special-img">
+  </main>
+  
+  <footer>
+    <h1>Contact</h1>
+    <p>Mail:</p>
+    <p>FB:</p>
+    <a href="#">
+        <img src="下載.png" alt="fbb">
+    </a>
+    <p>Address:No. 200, Xinsheng Rd., Yuanlin City, Taiwan(R.O.C)</p>
+    <p>phone:855-86535565 886-930093407</p>
+    <p>WHATSAPP:855-81247027</p>
+  </footer>
+</body>
+</html>

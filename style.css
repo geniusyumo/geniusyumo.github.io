@@ -1,0 +1,209 @@
+@media only screen and (min-width: 1051px){
+    header{
+        height:auto;
+        background-color: #1d1d1b;
+        
+    }
+    .navbar-logo{
+        height:11vh;
+        text-align: center;
+        position: relative;
+        right:43vw;
+        bottom:1vw;
+        width:auto;
+
+    }
+    
+    
+    .navbar-brand{
+        height:auto;
+    }
+    .navbar{
+        
+        background-color: #1d1d1b;
+    }
+    li a{
+        color:white;
+        font-size:20px;
+        text-decoration: none;
+    
+    }
+    li a:hover{
+        text-decoration: underline;
+    }
+    .navbar-toggler{
+        background-color: white;
+        order: -1;
+    }
+    a.navbar-brand{
+        color:white;
+        font-size:3vw;
+        position: relative;
+        top:0;
+        left:2vw;
+    }
+    
+    body{
+        background-color: #1d1d1b;
+    }
+    /* 样式箭头的颜色 */
+   
+    main p,h1,a{
+        color:black;
+        position: relative;
+    }
+    main{
+        position: relative;
+    }
+    header img{
+        height:10vh;
+        width: auto;
+    }
+    main h1{
+        font-size: 2vw;
+    }
+    
+    main{
+        background-color: white;
+    }
+    footer{
+        background-color: #1d1d1b;
+    }
+    footer h1{
+        color:white;
+    }
+    footer p{
+        font-size: 1.5vw;
+        white-space: nowrap;
+        color:white;
+    }
+    footer img{
+        height:10vh;
+        width: auto;
+    }
+    .special-img{
+        height:20vh;
+    }
+    main{
+        height:auto;
+    }  
+
+
+}
+@media only screen and (max-width: 1051px) {
+    header {
+        height: auto;
+        background-color: #1d1d1b;
+        
+    }
+    .yyy{
+        width: 80%;
+        
+        
+    }
+
+    .navbar-logo {
+        height: 11vh;
+        
+        width: auto;
+        position: relative;
+        left:7vw;
+    }
+
+    .navbar-brand {
+        height: auto;
+        
+        
+    }
+    
+
+    .navbar {
+        background-color: #1d1d1b;
+        width:100%;
+        
+    }
+
+    li a {
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        text-decoration: underline;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+        
+        order:-1;
+    }
+
+    a.navbar-brand {
+        color: white;
+        font-size: 3vw;
+        position: relative;
+        top: 0;
+        left: 2vw;
+    }
+
+    main {
+        position: relative;
+    }
+
+    body {
+        background-color: #1d1d1b;
+    }
+
+    main p, h1, a {
+        color: black;
+    }
+
+    header img {
+        height: 10vh;
+        width: auto;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    main h1 {
+        font-size: 5vw;
+    }
+
+    main {
+        background-color: white;
+    }
+
+    footer {
+        background-color: #1d1d1b;
+        height: auto;
+    }
+
+    footer h1 {
+        color: white;
+        font-size: 5vw;
+    }
+
+    footer p {
+        font-size: 3vw;
+        white-space: nowrap;
+        color: white;
+    }
+
+    footer img {
+        height: 10vh;
+        width: auto;
+    }
+
+    .special-img {
+        height: 10vh;
+    }
+
+    main {
+        height: auto;
+    }
+}
+
+
